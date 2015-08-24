@@ -1,0 +1,16 @@
+{
+  "name": "xa1-currency-converter",
+  "description": "Currency converter for Sage X3 4GL",
+  "version": "1.0.0",
+  "author": "ACME Corp.",
+  "private": true,
+  "sage": {
+    "x3": {
+      "extensions": {
+        "4gl-apis": [{
+          "module": "./lib/currency-converter"
+        }]
+      }
+    }
+  }
+}
